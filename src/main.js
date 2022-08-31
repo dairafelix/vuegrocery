@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faCartPlus)
+library.add( faCartPlus )
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)
