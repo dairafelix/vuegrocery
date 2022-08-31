@@ -27,7 +27,7 @@
   <h1 class="title">Vue Grocerie List</h1> 
     <form class="newGroceryForm" @submit.prevent="addGrocery">
       <input id="newGrocery" autocomplete="off" type="text" placeholder="Add an item to your list" v-model="newGrocery" />
-      <button type="submit"><font-awesome-icon icon="fa-solid fa-cart-plus" /></button>
+      <button type="submit"> <font-awesome-icon icon="fa-solid fa-cart-plus" /> </button>
     </form>
     <h3> Pending Items: {{groceries.length}}</h3>
     <ul>
